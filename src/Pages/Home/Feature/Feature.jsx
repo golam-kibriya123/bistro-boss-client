@@ -4,7 +4,7 @@ import feature from '../../../assets/home/featured.jpg'
 
 const Feature = () => {
     return (
-        <div className="mt-32 bg-feature bg-cover bg-center bg-no-repeat py-32">
+        <div className="mt-32 bg-feature bg-cover bg-center bg-no-repeat bg-fixed py-32">
             <SectionHeader
                 sub={"---Check it out---"}
                 main={"FROM OUR MENU"}
