@@ -4,7 +4,7 @@ import FoodCard from "../../../Cmponents/FoodCard/FoodCard";
 
 const ChefRecommends = () => {
     const [recommends, setRecommends] = useState([]);
-    fetch('menu.json')
+    fetch('http://localhost:5000/menu')
         .then(res => res.json())
         .then(data => {
             const chefRecommend = data.filter(item => item.category === 'popular');

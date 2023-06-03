@@ -9,6 +9,11 @@ export default {
       backgroundImage: {
         'mBanner': `url('./src/assets/home/chef-service.jpg')`,
         'feature': `linear-gradient(0deg, rgba(21, 21, 21, 0.7), rgba(21, 21, 21, 0.7)), url('./src/assets/home/featured.jpg');`,
+        'login-bg': `url('./src/assets/others/authentication.png')`,
+
+      },
+      boxShadow: {
+        'login': 'box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.25)'
       }
     },
   },

@@ -22,7 +22,7 @@ const NavBar = () => {
             <Link >SIGN OUT</Link>
         </li>
         <li>
-            <Link to={'/sign'}>SIGN IN</Link>
+            <Link to={'/login'}>SIGN IN</Link>
         </li>
     </>;
     return (

@@ -1,0 +1,19 @@
+.hero {
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+#canv {
+    position: relative;
+    margin-top: 10px;
+    margin-left: -18px;
+    padding: 0;
+}
+
+#reload_href:hover {
+    text-decoration: underline;
+}
+
+#reload_href {
+    position: absolute;
+    bottom: -26px;
+}
