@@ -4,12 +4,13 @@ import NavBar from "../Pages/Shard/NavBar/NavBar";
 
 const Main = () => {
     const location = useLocation();
-    const noHeaderFooter = location.pathname.includes('login')
+    const login = location.pathname.includes('login');
+    const signup = location.pathname.includes('signup');
     return (
         <div>
-            {noHeaderFooter || <NavBar></NavBar>}
+            {signup || login || <NavBar></NavBar>}
             <Outlet></Outlet>
-            {noHeaderFooter || <Footer></Footer>
+            {signup || login || <Footer></Footer>
             }
         </div>
     );
